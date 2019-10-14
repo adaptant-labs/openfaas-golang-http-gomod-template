@@ -3,8 +3,8 @@
 This repository contains an updated version of the `golang-http` template for
 newer versions of Go, using go modules.
 
-One further addition is the inclusion of `Host` and `Path` strings in the
-incoming request, which are required for e.g. function endpoint authorization.
+One further addition is the inclusion of the `Host` string in the incoming
+request, which is required for e.g. function endpoint authorization.
 
 ## Quick Start
 

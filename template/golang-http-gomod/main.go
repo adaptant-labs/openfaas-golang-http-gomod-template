@@ -34,7 +34,6 @@ func makeRequestHandler() func(http.ResponseWriter, *http.Request) {
 			Header:      r.Header,
 			Method:      r.Method,
 			Host:        r.Host,
-			Path:        r.URL.Path,
 			QueryString: r.URL.RawQuery,
 		}
 
